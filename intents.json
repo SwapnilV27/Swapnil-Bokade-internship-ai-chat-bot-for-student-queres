@@ -1,0 +1,160 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good afternoon", "namaste", "kaise ho", "hii", "hlo"],
+      "responses": ["Hello! I'm your college assistant. Ask me about admissions, courses, fees, internships, or placements.", "Hi there! How can I help you today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "thanks bye", "ok bye", "thank you bye"],
+      "responses": ["Goodbye! Feel free to come back if you have more questions.", "Bye! Have a great day."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "thanks a lot", "that helps", "shukriya"],
+      "responses": ["You're welcome!", "Happy to help!"]
+    },
+    {
+      "tag": "admissions_process",
+      "patterns": [
+        "how do I apply for admission",
+        "what is the admission process",
+        "how can I get admission",
+        "admission kaise le",
+        "steps for admission",
+        "how to enroll in the college",
+        "when do admissions open",
+        "admission form kaise bhare"
+      ],
+      "responses": ["Admissions open every year in June. You need to fill the online application form, upload your documents, and appear for the entrance test or merit-based shortlisting.", "To apply, visit the admissions portal, complete the form, pay the application fee, and submit required documents (marksheets, ID proof, photo)."]
+    },
+    {
+      "tag": "admission_eligibility",
+      "patterns": [
+        "what is the eligibility criteria",
+        "who can apply for admission",
+        "minimum marks required for admission",
+        "eligibility for btech admission",
+        "am I eligible to apply"
+      ],
+      "responses": ["Eligibility generally requires 10+2 with at least 60% marks in Physics, Chemistry, and Mathematics for engineering courses. Check the specific course page for exact criteria."]
+    },
+    {
+      "tag": "courses_offered",
+      "patterns": [
+        "what courses are offered",
+        "which courses can I choose",
+        "list of courses",
+        "what programs does the college offer",
+        "courses available in college",
+        "branches available"
+      ],
+      "responses": ["We offer courses including Computer Science, Electronics, Mechanical, Civil Engineering, Business Administration, and Commerce. Which one are you interested in?"]
+    },
+    {
+      "tag": "course_duration",
+      "patterns": [
+        "how long is the course",
+        "duration of btech",
+        "course duration",
+        "how many years is the degree",
+        "kitne saal ka course hai"
+      ],
+      "responses": ["Most undergraduate courses are 4 years long (8 semesters), while postgraduate courses are typically 2 years."]
+    },
+    {
+      "tag": "fees_structure",
+      "patterns": [
+        "what is the fee structure",
+        "how much is the course fee",
+        "total fees for the course",
+        "fee kitni hai",
+        "tuition fees details",
+        "semester fee amount"
+      ],
+      "responses": ["The annual fee varies by course, generally between ₹80,000 to ₹1,50,000 per year, including tuition and lab charges. Check the official fee structure page for exact amounts by course."]
+    },
+    {
+      "tag": "fee_payment",
+      "patterns": [
+        "how to pay fees",
+        "fee payment methods",
+        "can I pay fees online",
+        "last date to pay fees",
+        "fee payment deadline"
+      ],
+      "responses": ["Fees can be paid online via the student portal using net banking, UPI, or card. You can also pay offline at the accounts office. Check the academic calendar for payment deadlines."]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "is there any scholarship",
+        "scholarship details",
+        "how to apply for scholarship",
+        "financial aid available",
+        "merit scholarship"
+      ],
+      "responses": ["Yes, merit-based and need-based scholarships are available. You can apply through the scholarship portal after admission confirmation, usually within the first semester."]
+    },
+    {
+      "tag": "internships",
+      "patterns": [
+        "does the college provide internships",
+        "how to get an internship",
+        "internship opportunities",
+        "internship program details",
+        "when do internships start"
+      ],
+      "responses": ["The college has tie-ups with companies for summer and semester internships. The Training & Placement Cell shares openings and helps with applications, usually starting from the 3rd year."]
+    },
+    {
+      "tag": "internship_eligibility",
+      "patterns": [
+        "who is eligible for internships",
+        "minimum cgpa for internship",
+        "eligibility criteria for internship"
+      ],
+      "responses": ["Generally students with a minimum CGPA of 6.0 and no active backlogs are eligible to apply for internships through the college placement cell."]
+    },
+    {
+      "tag": "placements",
+      "patterns": [
+        "tell me about placements",
+        "placement record",
+        "which companies visit for placements",
+        "placement statistics",
+        "average package",
+        "highest package offered",
+        "placement kaise hote hain"
+      ],
+      "responses": ["The college has a strong placement record with companies like TCS, Infosys, Wipro, and Amazon visiting campus. The average package is around ₹5-6 LPA, with the highest going up to ₹20+ LPA."]
+    },
+    {
+      "tag": "placement_process",
+      "patterns": [
+        "what is the placement process",
+        "how does placement work",
+        "placement rounds",
+        "steps in campus placement"
+      ],
+      "responses": ["The placement process usually includes an aptitude test, technical round, group discussion, and HR interview. The Placement Cell coordinates all rounds with visiting companies."]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": [
+        "how can I contact the college",
+        "college phone number",
+        "college email address",
+        "contact details",
+        "who do I contact for queries"
+      ],
+      "responses": ["You can reach the college office at info@college.edu or call +91-XXXXXXXXXX during working hours (9 AM - 5 PM, Mon-Sat)."]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": ["Sorry, I didn't quite understand that. Could you rephrase? I can help with admissions, courses, fees, internships, or placements.", "I'm not sure about that. Try asking about admissions, fees, courses, internships, or placements."]
+    }
+  ]
+}
